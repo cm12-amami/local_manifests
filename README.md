@@ -1,10 +1,6 @@
-# CM12.1
+# CM12.1-test
 
-## How launch a cm-12.1 build:
+## This is work in progress
 
-make clean  
-repo sync  
-source build/envsetup.sh  
-brunch $device  
-
-Where $device is amami or z3c
+If you are working with us to apply patches etc., you know how to deal with it.
+If not, please use the release branch 'cm-12.1', as your build from here may break
