@@ -65,7 +65,7 @@
   <project name="derfelot/android_platform_external_giflib" path="external/giflib" remote="github" revision="cm-12.1" />  
   <project path="external/sonivox" name="derfelot/android_external_sonivox" remote="github" revision="cm-12.1" />
   <project path="external/skia" name="derfelot/android_external_skia" remote="github" revision="cm-12.1" />
-  <project path="external/chromium_org/v8" name="MSe1969/android_external_chromium_org_v8" remote="github" revision="cm-12.1-test" /> 
+  <project path="external/chromium_org/v8" name="derfelot/android_external_chromium_org_v8" remote="github" revision="cm-12.1-test" /> 
   
   <!-- common Sony stuff -->
   <project name="derfelot/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" revision="cm-12.1"/>
