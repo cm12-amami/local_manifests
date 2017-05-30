@@ -30,12 +30,12 @@
   <remove-project name="LineageOS/android_external_bluetooth_bluedroid" />
   <remove-project name="LineageOS/android_external_sonivox" />
   <remove-project name="LineageOS/android_external_skia" />
+  <remove-project name="LineageOS/android_external_chromium_org_v8" />
   
   <!-- Add own repos -->
   <project name="derfelot/android_build" path="build" remote="github" revision="cm-12.1-test" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-
   <project name="derfelot/android_frameworks_av" path="frameworks/av" remote="github" revision="cm-12.1"/>
   <project name="derfelot/android_frameworks_base" path="frameworks/base" remote="github" revision="cm-12.1"/>
   <project name="derfelot/android_frameworks_ex" path="frameworks/ex" remote="github" revision="cm-12.1"/>
@@ -65,7 +65,8 @@
   <project name="derfelot/android_platform_external_giflib" path="external/giflib" remote="github" revision="cm-12.1" />  
   <project path="external/sonivox" name="derfelot/android_external_sonivox" remote="github" revision="cm-12.1" />
   <project path="external/skia" name="derfelot/android_external_skia" remote="github" revision="cm-12.1" />
-
+  <project path="external/chromium_org/v8" name="MSe1969/android_external_chromium_org_v8" remote="github" revision="cm-12.1-test" /> 
+  
   <!-- common Sony stuff -->
   <project name="derfelot/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" revision="cm-12.1"/>
   <project name="derfelot/android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="github" revision="cm-12.1"/>
@@ -92,7 +93,14 @@
   <!-- Exclude CMUpdater from build -->
   <remove-project name="LineageOS/android_packages_apps_CMUpdater" />
   <remove-project name="LineageOS/android_vendor_cm" />
-  <project path="vendor/cm" name="derfelot/android_vendor_cm" remote="github" revision="cm-12.1" />
-  
+  <project path="vendor/cm" name="derfelot/android_vendor_cm" remote="github" revision="cm-12.1-test" />
+
+  <!-- Actual Webview.apk as prebuilt -->
+  <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" clone-depth="1" revision="cm-14.1" />
+
+  <!-- Replace outdated Browser.apk with CodeAurora Chromium SWE build -->
+  <remove-project name="LineageOS/android_packages_apps_Browser" />
+  <project path="packages/apps/chromium-swe-build" name="bamless/chromium-swe-builds" remote="github" revision="master" />
+    
 </manifest>
 
