@@ -98,5 +98,9 @@
   <!-- Actual Webview.apk as prebuilt -->
   <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" clone-depth="1" revision="cm-14.1" />
 
+  <!-- Replace outdated Browser.apk with CodeAurora Chromium SWE build -->
+  <remove-project name="LineageOS/android_packages_apps_Browser" />
+  <project path="packages/apps/CAF-Browser" name="MSe1969/android_packages_apps_CAF-Browser" clone-depth="1" revision="cm-12.1-test" />  
+
 </manifest>
 
