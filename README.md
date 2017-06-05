@@ -1,7 +1,7 @@
 # CM12.1
 
 ## How launch a cm-12.1 build:
-```
+```Shell session
 make clean  
 repo sync  
 source build/envsetup.sh  
