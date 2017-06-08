@@ -98,7 +98,7 @@
   <!-- Actual Webview.apk as prebuilt -->
   <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" clone-depth="1" revision="cm-14.1" />
 
-  <!-- Replace outdated Browser.apk with CodeAurora Chromium SWE build -->
+  <!-- Replace outdated Browser.apk with Privacy-Browser (stoutner.com) -->
   <remove-project name="LineageOS/android_packages_apps_Browser" />
   <project path="external/stoutner/privacy-browser" 
            name="MSe1969/MSe1969/android_external_stoutner_privacy-browser" 
