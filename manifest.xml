@@ -45,23 +45,23 @@
   <project name="derfelot/android_hardware_qcom_media" path="hardware/qcom/media/default" remote="github" revision="cm-12.1"/>
   <project name="derfelot/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8974" remote="github" revision="cm-12.1-caf-8974" />
   <project name="derfelot/android_packages_services_Telephony" path="packages/services/Telephony" remote="github" revision="cm-12.1"/>
-  <project name="derfelot/android_system_core" path="system/core" remote="github" revision="cm-12.1"/>
+  <project name="derfelot/android_system_core" path="system/core" remote="github" revision="cm-12.1-test"/>
   <project name="derfelot/android_platform_external_libnl" path="external/libnl" remote="github" revision="cm-12.1" />
   <project name="derfelot/android_frameworks_native" path="frameworks/native" remote="github" revision="cm-12.1" />
   <project name="derfelot/android_external_tremolo" path="external/tremolo" remote="github" revision="cm-12.1" />
-  <project name="derfelot/android_external_libhevc" path="external/libhevc" remote="github" revision="cm-12.1" />
-  <project name="derfelot/android_external_libvpx" path="external/libvpx" remote="github" revision="cm-12.1" />
+  <project name="derfelot/android_external_libhevc" path="external/libhevc" remote="github" revision="cm-12.1-test" />
+  <project name="derfelot/android_external_libvpx" path="external/libvpx" remote="github" revision="cm-12.1-test" />
   <project name="derfelot/android_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="github" revision="cm-12.1" />
   <project name="derfelot/android_platform_external_libopus" path="external/libopus" remote="github" revision="cm-12.1" />
   <project name="derfelot/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="cm-12.1" />
   <project name="derfelot/android_packages_apps_UnifiedEmail" path="packages/apps/UnifiedEmail" remote="github" revision="cm-12.1" />
   <project name="derfelot/android_bionic" path="bionic" remote="github" revision="cm-12.1" />
-  <project name="derfelot/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="github" revision="cm-12.1" />
+  <project name="derfelot/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="github" revision="cm-12.1-test" />
   <project name="derfelot/android_external_chromium_org_third_party_boringssl_src" path="external/chromium_org/third_party/boringssl/src" remote="github" revision="cm-12.1" />
   <project name="derfelot/android_bootable_recovery" path="bootable/recovery" remote="github" revision="cm-12.1" />
   <project name="derfelot/android_external_libnfc-nci" path="external/libnfc-nci" remote="github" revision="cm-12.1" />
   <project name="derfelot/android_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="github" revision="cm-12.1" />
-  <project name="derfelot/android_external_bluetooth_bluedroid" path="external/bluetooth/bluedroid" remote="github" revision="cm-12.1" />
+  <project name="derfelot/android_external_bluetooth_bluedroid" path="external/bluetooth/bluedroid" remote="github" revision="cm-12.1-test" />
   <project name="derfelot/android_platform_external_giflib" path="external/giflib" remote="github" revision="cm-12.1" />  
   <project path="external/sonivox" name="derfelot/android_external_sonivox" remote="github" revision="cm-12.1" />
   <project path="external/skia" name="derfelot/android_external_skia" remote="github" revision="cm-12.1" />
@@ -100,7 +100,9 @@
 
   <!-- Replace outdated Browser.apk with CodeAurora Chromium SWE build -->
   <remove-project name="LineageOS/android_packages_apps_Browser" />
-  <project path="packages/apps/CAF-Browser" name="MSe1969/android_packages_apps_CAF-Browser" clone-depth="1" revision="cm-12.1-test" />  
+  <project path="external/stoutner/privacy-browser" 
+           name="MSe1969/MSe1969/android_external_stoutner_privacy-browser" 
+           clone-depth="1" revision="master" />  
 
 </manifest>
 
