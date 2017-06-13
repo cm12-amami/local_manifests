@@ -70,7 +70,7 @@
   <project path="external/skia" name="derfelot/android_external_skia" remote="github" revision="cm-12.1" />
   <project path="external/chromium_org/v8" name="derfelot/android_external_chromium_org_v8" remote="github" revision="cm-12.1" /> 
   <project path="external/libxml2" name="derfelot/android_external_libxml2" remote="github" revision="cm-12.1" />
-  <project path="external/pdfium" name="MSe1969/android_external_pdfium" remote="github" revision="cm-12.1" />
+  <project path="external/pdfium" name="derfelot/android_external_pdfium" remote="github" revision="cm-12.1" />
 
   <!-- common Sony stuff -->
   <project name="derfelot/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" revision="cm-12.1"/>
@@ -105,8 +105,8 @@
   
   <!-- Replace outdated Browser.apk with Privacy-Browser (stoutner.com) -->
   <remove-project name="LineageOS/android_packages_apps_Browser" />
-  <project path="external/stoutner/privacy-browser" 
-           name="MSe1969/android_external_stoutner_privacy-browser" 
-           clone-depth="1" revision="master" />  
+  <remote name="stoutner" fetch="git://git.stoutner.com" />
+  <project path="external/stoutner/privacy-browser" remote="stoutner"
+           name="git/PrivacyBrowserROMIntegration.git" revision="master" />
   
 </manifest>
