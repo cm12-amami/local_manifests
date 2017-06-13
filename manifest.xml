@@ -104,9 +104,9 @@
 
   <!-- Replace outdated Browser.apk with Privacy-Browser (stoutner.com) -->
   <remove-project name="LineageOS/android_packages_apps_Browser" />
-  <project path="external/stoutner/privacy-browser" 
-           name="MSe1969/android_external_stoutner_privacy-browser" 
-           clone-depth="1" revision="master" />  
+  <remote name="stoutner" fetch="git://git.stoutner.com" />
+  <project path="external/stoutner/privacy-browser" remote="stoutner"
+           name="git/PrivacyBrowserROMIntegration.git" revision="master" />
 
 </manifest>
 
