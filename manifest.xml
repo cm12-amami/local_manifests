@@ -72,7 +72,7 @@
   <project path="external/pdfium" name="derfelot/android_external_pdfium" remote="github" revision="cm-12.1" />
   
   <!-- common Sony stuff -->
-  <project name="derfelot/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" revision="cm-12.1-june"/>
+  <project name="derfelot/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" revision="cm-12.1-test"/>
   <project name="derfelot/android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="github" revision="cm-12.1"/>
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.1"/>
   <project name="LineageOS/android_device_sony_common" path="device/sony/common" remote="github" revision="cm-12.1"/>
