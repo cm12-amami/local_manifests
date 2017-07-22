@@ -33,6 +33,7 @@
   <remove-project name="LineageOS/android_external_chromium_org_v8" />
   <remove-project name="LineageOS/android_external_libxml2" />
   <remove-project name="platform/external/pdfium" />
+  <remove-project name="LineageOS/android_packages_providers_DownloadProvider" />
 
   <!-- Add own repos -->
   <project name="derfelot/android_build" path="build" remote="github" revision="cm-12.1" >
@@ -71,6 +72,7 @@
   <project path="external/chromium_org/v8" name="derfelot/android_external_chromium_org_v8" remote="github" revision="cm-12.1" /> 
   <project path="external/libxml2" name="derfelot/android_external_libxml2" remote="github" revision="cm-12.1" />
   <project path="external/pdfium" name="derfelot/android_external_pdfium" remote="github" revision="cm-12.1" />
+  <project path="packages/providers/DownloadProvider" name="MSe1969/android_packages_providers_DownloadProvider" remote="github" revision="cm-12.1" />
 
   <!-- common Sony stuff -->
   <project name="derfelot/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" revision="cm-12.1"/>
@@ -95,12 +97,12 @@
   <remove-project name="LineageOS/android_external_freetype" />
   <project path="external/freetype" name="LineageOS/android_external_freetype" groups="pdk" remote="github" revision="cm-13.0" />
 
-  <!-- Exclude CMUpdater from build, use LOS boot animation -->
+  <!-- Own repo for vendor/cm: Remove CMUpdater, LOS boot animation, misc. -->
   <remove-project name="LineageOS/android_packages_apps_CMUpdater" />
   <remove-project name="LineageOS/android_vendor_cm" />
   <project path="vendor/cm" name="derfelot/android_vendor_cm" remote="github" revision="cm-12.1" />
   
-  <!-- Actual Webview.apk as prebuilt -->
+  <!-- Actual Webview.apk as prebuilt from cm-14.1 branch -->
   <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" clone-depth="1" revision="cm-14.1" />
   
   <!-- Replace outdated Browser.apk with Privacy-Browser (stoutner.com) -->
@@ -108,5 +110,16 @@
   <remote name="stoutner" fetch="git://git.stoutner.com" />
   <project path="external/stoutner/privacy-browser" remote="stoutner"
            name="git/PrivacyBrowserROMIntegration.git" revision="master" />
-  
+
+  <!-- Get rid of Google and CM-Tracking -->
+  <remove-project name="LineageOS/android_external_google" />
+  <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
+  <remove-project name="LineageOS/android_packages_apps_LockClock" />
+  <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
+  <remove-project name="LineageOS/android_packages_apps_Settings" />
+  <project path="packages/apps/Trebuchet" name="MSe1969/android_packages_apps_Trebuchet" remote="github" revision="cm-12.1" />
+  <project path="packages/apps/LockClock" name="MSe1969/android_packages_apps_LockClock" remote="github" revision="cm-12.1" />
+  <project path="packages/apps/SetupWizard" name="MSe1969/android_packages_apps_SetupWizard" remote="github" revision="cm-12.1" />
+  <project path="packages/apps/Settings" name="MSe1969/android_packages_apps_Settings" remote="github" revision="cm-12.1" />
+
 </manifest>
