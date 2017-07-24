@@ -40,7 +40,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project name="derfelot/android_frameworks_av" path="frameworks/av" remote="github" revision="cm-12.1"/>
-  <project name="derfelot/android_frameworks_base" path="frameworks/base" remote="github" revision="cm-12.1"/>
+  <project name="derfelot/android_frameworks_base" path="frameworks/base" remote="github" revision="cm-12.1-test"/>
   <project name="derfelot/android_frameworks_ex" path="frameworks/ex" remote="github" revision="cm-12.1"/>
   <project name="derfelot/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="github" revision="cm-12.1"/>
   <project name="derfelot/android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="github" revision="cm-12.1"/>
@@ -119,7 +119,7 @@
   <project path="packages/apps/Trebuchet" name="MSe1969/android_packages_apps_Trebuchet" remote="github" revision="cm-12.1" />
   <project path="packages/apps/LockClock" name="MSe1969/android_packages_apps_LockClock" remote="github" revision="cm-12.1" />
   <project path="packages/apps/SetupWizard" name="MSe1969/android_packages_apps_SetupWizard" remote="github" revision="cm-12.1" />
-  <project path="packages/apps/Settings" name="MSe1969/android_packages_apps_Settings" remote="github" revision="cm-12.1" />
+  <project path="packages/apps/Settings" name="MSe1969/android_packages_apps_Settings" remote="github" revision="cm-12.1-test" />
 
 </manifest>
 
