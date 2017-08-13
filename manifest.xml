@@ -39,7 +39,7 @@
   <project name="derfelot/android_build" path="build" remote="github" revision="cm-12.1-test" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project name="derfelot/android_frameworks_av" path="frameworks/av" remote="github" revision="cm-12.1"/>
+  <project name="derfelot/android_frameworks_av" path="frameworks/av" remote="github" revision="cm-12.1-test"/>
   <project name="derfelot/android_frameworks_base" path="frameworks/base" remote="github" revision="cm-12.1-test"/>
   <project name="derfelot/android_frameworks_ex" path="frameworks/ex" remote="github" revision="cm-12.1"/>
   <project name="derfelot/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="github" revision="cm-12.1-test"/>
