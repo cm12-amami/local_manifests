@@ -52,7 +52,7 @@
   <project name="derfelot/android_platform_external_libnl" path="external/libnl" remote="github" revision="cm-12.1" />
   <project name="derfelot/android_frameworks_native" path="frameworks/native" remote="github" revision="cm-12.1" />
   <project name="derfelot/android_external_tremolo" path="external/tremolo" remote="github" revision="cm-12.1" />
-  <project name="derfelot/android_external_libhevc" path="external/libhevc" remote="github" revision="cm-12.1" />
+  <project name="derfelot/android_external_libhevc" path="external/libhevc" remote="github" revision="cm-12.1-test" />
   <project name="derfelot/android_external_libvpx" path="external/libvpx" remote="github" revision="cm-12.1" />
   <project name="derfelot/android_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="github" revision="cm-12.1" />
   <project name="derfelot/android_platform_external_libopus" path="external/libopus" remote="github" revision="cm-12.1" />
