@@ -74,7 +74,7 @@
   <project path="external/libxml2" name="derfelot/android_external_libxml2" remote="github" revision="cm-12.1" />
   <project path="external/pdfium" name="derfelot/android_external_pdfium" remote="github" revision="cm-12.1" />
   <project path="packages/providers/DownloadProvider" name="MSe1969/android_packages_providers_DownloadProvider" remote="github" revision="cm-12.1" />
-  <project name="Micha-Btz/android_external_sfntly" path="external/sfntly" remote="github" revision="cm-12.1-test"/>
+  <project name="Micha-Btz/android_external_sfntly" path="external/sfntly" remote="github" revision="cm-12.1"/>
   
   <!-- common Sony stuff -->
   <project name="derfelot/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" revision="cm-12.1"/>
