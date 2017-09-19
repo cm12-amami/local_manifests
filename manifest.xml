@@ -38,6 +38,7 @@
   <remove-project name="LineageOS/android_external_jhead" />
   <remove-project name="LineageOS/android_frameworks_minikin" />
   <remove-project name="LineageOS/android_packages_apps_Nfc" />
+  <remove-project name="LineageOS/android_external_sqlite" />
 
   <!-- Add own repos -->
   <project name="derfelot/android_build" path="build" remote="github" revision="cm-12.1-test" >
@@ -82,7 +83,7 @@
   <project name="platform/external/jhead" path="external/jhead" remote="aosp" revision="refs/tags/android-6.0.1_r80"/>
   <project name="MSe1969/android_frameworks_minikin" path="frameworks/minikin" remote="github" revision="cm-12.1-test" />
   <project name="MSe1969/android_packages_apps_Nfc" path="packages/apps/Nfc" remote="github" revision="cm-12.1-test" />
-
+  <project name="MSe1969/android_external_sqlite" path="external/sqlite" remote="github" revision="cm-12.1-test" />
 
   <!-- common Sony stuff -->
   <project name="derfelot/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" revision="cm-12.1-test"/>
@@ -131,10 +132,6 @@
   <project path="packages/apps/LockClock" name="MSe1969/android_packages_apps_LockClock" remote="github" revision="cm-12.1" />
   <project path="packages/apps/SetupWizard" name="MSe1969/android_packages_apps_SetupWizard" remote="github" revision="cm-12.1" />
   <project path="packages/apps/Settings" name="MSe1969/android_packages_apps_Settings" remote="github" revision="cm-12.1-test" />
-
-  <!-- CVE-2017-6983 from Sept.17 ASB: Update SQLite DB -->
-  <remove-project name="LineageOS/android_external_sqlite" />
-  <project path="external/sqlite" name="LineageOS/android_external_sqlite" revision="cm-13.0" />
 
 </manifest>
 
