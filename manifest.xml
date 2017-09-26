@@ -45,22 +45,19 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project name="derfelot/android_frameworks_av" path="frameworks/av" remote="github" revision="cm-12.1-test"/>
-  <project name="derfelot/android_frameworks_base" path="frameworks/base" remote="github" revision="cm-12.1-test"/>
+  <project name="derfelot/android_frameworks_base" path="frameworks/base" remote="github" revision="cm-12.1"/>
   <project name="derfelot/android_frameworks_ex" path="frameworks/ex" remote="github" revision="cm-12.1"/>
   <project name="derfelot/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="github" revision="cm-12.1"/>
   <project name="derfelot/android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="github" revision="cm-12.1"/>
-  <!-- // a reminder to put the proper revision back, which is 'cm-12.1-caf-8974' !!!
   <project name="derfelot/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8974" remote="github" revision="cm-12.1-caf-8974" />
-  -->
-  <project name="derfelot/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8974" remote="github" revision="cm-12.1-test" />
   <project name="derfelot/android_hardware_qcom_media" path="hardware/qcom/media/default" remote="github" revision="cm-12.1"/>
   <project name="derfelot/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8974" remote="github" revision="cm-12.1-caf-8974" />
   <project name="derfelot/android_packages_services_Telephony" path="packages/services/Telephony" remote="github" revision="cm-12.1"/>
   <project name="derfelot/android_system_core" path="system/core" remote="github" revision="cm-12.1"/>
   <project name="derfelot/android_platform_external_libnl" path="external/libnl" remote="github" revision="cm-12.1" />
   <project name="derfelot/android_frameworks_native" path="frameworks/native" remote="github" revision="cm-12.1" />
-  <project name="derfelot/android_external_tremolo" path="external/tremolo" remote="github" revision="cm-12.1-test" />
-  <project name="derfelot/android_external_libhevc" path="external/libhevc" remote="github" revision="cm-12.1-test" />
+  <project name="derfelot/android_external_tremolo" path="external/tremolo" remote="github" revision="cm-12.1" />
+  <project name="derfelot/android_external_libhevc" path="external/libhevc" remote="github" revision="cm-12.1" />
   <project name="derfelot/android_external_libvpx" path="external/libvpx" remote="github" revision="cm-12.1" />
   <project name="derfelot/android_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="github" revision="cm-12.1" />
   <project name="derfelot/android_platform_external_libopus" path="external/libopus" remote="github" revision="cm-12.1" />
@@ -71,19 +68,19 @@
   <project name="derfelot/android_bootable_recovery" path="bootable/recovery" remote="github" revision="cm-12.1" />
   <project name="derfelot/android_external_libnfc-nci" path="external/libnfc-nci" remote="github" revision="cm-12.1" />
   <project name="derfelot/android_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="github" revision="cm-12.1" />
-  <project name="derfelot/android_external_bluetooth_bluedroid" path="external/bluetooth/bluedroid" remote="github" revision="cm-12.1-test" />
+  <project name="derfelot/android_external_bluetooth_bluedroid" path="external/bluetooth/bluedroid" remote="github" revision="cm-12.1" />
   <project name="derfelot/android_platform_external_giflib" path="external/giflib" remote="github" revision="cm-12.1" />  
-  <project path="external/sonivox" name="derfelot/android_external_sonivox" remote="github" revision="cm-12.1-test" />
+  <project path="external/sonivox" name="derfelot/android_external_sonivox" remote="github" revision="cm-12.1" />
   <project path="external/skia" name="derfelot/android_external_skia" remote="github" revision="cm-12.1" />
   <project path="external/chromium_org/v8" name="derfelot/android_external_chromium_org_v8" remote="github" revision="cm-12.1" /> 
   <project path="external/libxml2" name="derfelot/android_external_libxml2" remote="github" revision="cm-12.1" />
   <project path="external/pdfium" name="derfelot/android_external_pdfium" remote="github" revision="cm-12.1" />
   <project path="packages/providers/DownloadProvider" name="MSe1969/android_packages_providers_DownloadProvider" remote="github" revision="cm-12.1" />
-  <project name="Micha-Btz/android_external_sfntly" path="external/sfntly" remote="github" revision="cm-12.1-test"/>
+  <project name="Micha-Btz/android_external_sfntly" path="external/sfntly" remote="github" revision="cm-12.1"/>
   <project name="platform/external/jhead" path="external/jhead" remote="aosp" revision="refs/tags/android-6.0.1_r80"/>
-  <project name="MSe1969/android_frameworks_minikin" path="frameworks/minikin" remote="github" revision="cm-12.1-test" />
-  <project name="MSe1969/android_packages_apps_Nfc" path="packages/apps/Nfc" remote="github" revision="cm-12.1-test" />
-  <project name="MSe1969/android_external_sqlite" path="external/sqlite" remote="github" revision="cm-12.1-test" />
+  <project name="MSe1969/android_frameworks_minikin" path="frameworks/minikin" remote="github" revision="cm-12.1" />
+  <project name="MSe1969/android_packages_apps_Nfc" path="packages/apps/Nfc" remote="github" revision="cm-12.1" />
+  <project name="MSe1969/android_external_sqlite" path="external/sqlite" remote="github" revision="cm-12.1" />
 
   <!-- common Sony stuff -->
   <project name="derfelot/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" revision="cm-12.1-test"/>
@@ -131,7 +128,7 @@
   <project path="packages/apps/Trebuchet" name="MSe1969/android_packages_apps_Trebuchet" remote="github" revision="cm-12.1" />
   <project path="packages/apps/LockClock" name="MSe1969/android_packages_apps_LockClock" remote="github" revision="cm-12.1" />
   <project path="packages/apps/SetupWizard" name="MSe1969/android_packages_apps_SetupWizard" remote="github" revision="cm-12.1" />
-  <project path="packages/apps/Settings" name="MSe1969/android_packages_apps_Settings" remote="github" revision="cm-12.1-test" />
+  <project path="packages/apps/Settings" name="MSe1969/android_packages_apps_Settings" remote="github" revision="cm-12.1" />
 
 </manifest>
 
