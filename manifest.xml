@@ -35,6 +35,10 @@
   <remove-project name="platform/external/pdfium" />
   <remove-project name="LineageOS/android_packages_providers_DownloadProvider" />
   <remove-project name="platform/external/sfntly" />
+  <remove-project name="LineageOS/android_external_jhead" />
+  <remove-project name="LineageOS/android_frameworks_minikin" />
+  <remove-project name="LineageOS/android_packages_apps_Nfc" />
+  <remove-project name="LineageOS/android_external_sqlite" />
   
   <!-- Add own repos -->
   <project name="derfelot/android_build" path="build" remote="github" revision="cm-12.1" >
@@ -62,7 +66,6 @@
   <project name="derfelot/android_packages_apps_UnifiedEmail" path="packages/apps/UnifiedEmail" remote="github" revision="cm-12.1" />
   <project name="derfelot/android_bionic" path="bionic" remote="github" revision="cm-12.1" />
   <project name="derfelot/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="github" revision="cm-12.1" />
-  <project name="derfelot/android_external_chromium_org_third_party_boringssl_src" path="external/chromium_org/third_party/boringssl/src" remote="github" revision="cm-12.1" />
   <project name="derfelot/android_bootable_recovery" path="bootable/recovery" remote="github" revision="cm-12.1" />
   <project name="derfelot/android_external_libnfc-nci" path="external/libnfc-nci" remote="github" revision="cm-12.1" />
   <project name="derfelot/android_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="github" revision="cm-12.1" />
@@ -75,6 +78,10 @@
   <project path="external/pdfium" name="derfelot/android_external_pdfium" remote="github" revision="cm-12.1" />
   <project path="packages/providers/DownloadProvider" name="MSe1969/android_packages_providers_DownloadProvider" remote="github" revision="cm-12.1" />
   <project name="Micha-Btz/android_external_sfntly" path="external/sfntly" remote="github" revision="cm-12.1"/>
+  <project name="platform/external/jhead" path="external/jhead" remote="aosp" revision="refs/tags/android-6.0.1_r80"/>
+  <project name="MSe1969/android_frameworks_minikin" path="frameworks/minikin" remote="github" revision="cm-12.1" />
+  <project name="MSe1969/android_packages_apps_Nfc" path="packages/apps/Nfc" remote="github" revision="cm-12.1" />
+  <project name="MSe1969/android_external_sqlite" path="external/sqlite" remote="github" revision="cm-12.1" />
   
   <!-- common Sony stuff -->
   <project name="derfelot/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" revision="cm-12.1"/>
