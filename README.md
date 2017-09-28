@@ -5,9 +5,8 @@
 make clean  
 repo sync  
 source build/envsetup.sh  
-brunch $device  
+brunch amami  
 ```
-Where $device is amami or z3c
 
 ## How to initially set up your build tree:
 ```Shell session

@@ -98,10 +98,6 @@
   <project name="cm12-amami/android_device_sony_amami" path="device/sony/amami" remote="github" revision="cm-12.1"/>
   <project name="cm12-amami/android_device_sony_rhine-common" path="device/sony/rhine-common" remote="github" revision="cm-12.1"/>
 
-  <!-- z3c -->
-  <project name="cm12-amami/android_device_sony_z3c" path="device/sony/z3c" remote="github" revision="cm-12.1"/>
-  <project name="cm12-amami/android_device_sony_shinano-common" path="device/sony/shinano-common" remote="github" revision="cm-12.1"/>
-
   <!-- Take freetype from LOS CM-13.0 branch to use V2.7, see CVE-2016-10244 in April 2017 ASB -->
   <remove-project name="LineageOS/android_external_freetype" />
   <project path="external/freetype" name="LineageOS/android_external_freetype" groups="pdk" remote="github" revision="cm-13.0" />
