@@ -8,4 +8,4 @@ source build/envsetup.sh
 lunch cm_$device-eng  
 make -jx recoveryimage  
 ```
-Where $device is amami or z3c and x the number of CPU's
+Where $device is amami and x the number of CPU's
