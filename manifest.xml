@@ -39,6 +39,7 @@
   <remove-project name="LineageOS/android_frameworks_minikin" />
   <remove-project name="LineageOS/android_packages_apps_Nfc" />
   <remove-project name="LineageOS/android_external_sqlite" />
+  <remove-project name="LineageOS/android_external_dnsmasq" />
 
   <!-- Add own repos -->
   <project name="cm12-amami/android_build" path="build" remote="github" revision="cm-12.1-test" >
@@ -81,6 +82,7 @@
   <project name="cm12-amami/android_frameworks_minikin" path="frameworks/minikin" remote="github" revision="cm-12.1" />
   <project name="cm12-amami/android_packages_apps_Nfc" path="packages/apps/Nfc" remote="github" revision="cm-12.1" />
   <project name="cm12-amami/android_external_sqlite" path="external/sqlite" remote="github" revision="cm-12.1" />
+  <project name="cm12-amami/android_external_dnsmasq" path="external/dnsmasq" remote="github" revision="cm-14.1" />
 
   <!-- common Sony stuff -->
   <project name="cm12-amami/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" revision="cm-12.1-test"/>
