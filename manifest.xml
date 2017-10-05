@@ -40,6 +40,8 @@
   <remove-project name="LineageOS/android_packages_apps_Nfc" />
   <remove-project name="LineageOS/android_external_sqlite" />
   <remove-project name="LineageOS/android_external_dnsmasq" />
+  <remove-project name="LineageOS/android_hardware_ril" />
+
 
   <!-- Add own repos -->
   <project name="cm12-amami/android_build" path="build" remote="github" revision="cm-12.1-test" >
@@ -57,7 +59,7 @@
   <project name="cm12-amami/android_system_core" path="system/core" remote="github" revision="cm-12.1"/>
   <project name="cm12-amami/android_platform_external_libnl" path="external/libnl" remote="github" revision="cm-12.1" />
   <project name="cm12-amami/android_frameworks_native" path="frameworks/native" remote="github" revision="cm-12.1" />
-  <project name="cm12-amami/android_external_tremolo" path="external/tremolo" remote="github" revision="cm-12.1" />
+  <project name="cm12-amami/android_external_tremolo" path="external/tremolo" remote="github" revision="cm-12.1-test" />
   <project name="cm12-amami/android_external_libhevc" path="external/libhevc" remote="github" revision="cm-12.1-test" />
   <project name="cm12-amami/android_external_libvpx" path="external/libvpx" remote="github" revision="cm-12.1" />
   <project name="cm12-amami/android_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="github" revision="cm-12.1" />
@@ -78,11 +80,14 @@
   <project path="external/pdfium" name="cm12-amami/android_external_pdfium" remote="github" revision="cm-12.1" />
   <project path="packages/providers/DownloadProvider" name="cm12-amami/android_packages_providers_DownloadProvider" remote="github" revision="cm-12.1" />
   <project name="cm12-amami/android_external_sfntly" path="external/sfntly" remote="github" revision="cm-12.1"/>
-  <project name="platform/external/jhead" path="external/jhead" remote="aosp" revision="refs/tags/android-6.0.1_r80"/>
+  <project name="platform/external/jhead" path="external/jhead" remote="aosp" revision="refs/tags/android-6.0.1_r81"/>
   <project name="cm12-amami/android_frameworks_minikin" path="frameworks/minikin" remote="github" revision="cm-12.1" />
   <project name="cm12-amami/android_packages_apps_Nfc" path="packages/apps/Nfc" remote="github" revision="cm-12.1" />
   <project name="cm12-amami/android_external_sqlite" path="external/sqlite" remote="github" revision="cm-12.1" />
   <project name="cm12-amami/android_external_dnsmasq" path="external/dnsmasq" remote="github" revision="cm-14.1" />
+  <project path="hardware/ril" name="cm12-amami/android_hardware_ril" groups="pdk" />
+  <project path="hardware/ril-caf" name="cm12-amami/android_hardware_ril" groups="pdk" revision="cm-12.1-caf" />
+
 
   <!-- common Sony stuff -->
   <project name="cm12-amami/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" revision="cm-12.1-test"/>
