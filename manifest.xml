@@ -84,7 +84,7 @@
   <project name="cm12-amami/android_frameworks_minikin" path="frameworks/minikin" remote="github" revision="cm-12.1" />
   <project name="cm12-amami/android_packages_apps_Nfc" path="packages/apps/Nfc" remote="github" revision="cm-12.1" />
   <project name="cm12-amami/android_external_sqlite" path="external/sqlite" remote="github" revision="cm-12.1" />
-  <project name="cm12-amami/android_external_dnsmasq" path="external/dnsmasq" remote="github" revision="cm-12.1-test" />
+  <project name="platform/external/dnsmasq" path="external/dnsmasq" remote="aosp" revision="refs/tags/android-6.0.1_r81" />
   <project path="hardware/ril" name="cm12-amami/android_hardware_ril" groups="pdk" />
   <project path="hardware/ril-caf" name="cm12-amami/android_hardware_ril" groups="pdk" revision="cm-12.1-caf" />
 
