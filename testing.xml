@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- 
+
+    PLEASE ONLY EDIT THIS FILE FOIR THE 'cm12.1-test' branch to replace repositories! 
+
+    'build' and 'kernel' are ALWAYS subject to ASB changes, therefore they are replaced 
+    by default in manifest.xml to point to 'cm-12.1-test'.
+    Further repositories should be replaced only in this file.
+
+  -->
+
+  <remove-project name="cm12-amami/android_frameworks_av">
+  <project name="cm12-amami/android_frameworks_av" path="frameworks/av" revision="cm-12.1-test" />
+
+</manifest>
