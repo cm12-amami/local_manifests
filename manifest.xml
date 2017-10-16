@@ -17,7 +17,6 @@
   <remove-project name="LineageOS/android_external_libvpx" />
   <remove-project name="LineageOS/android_packages_apps_ContactsCommon" />
   <remove-project name="platform/external/libopus" />
-  <remove-project name="LineageOS/android_build" />
   <remove-project name="LineageOS/android_hardware_libhardware" />
   <remove-project name="LineageOS/android_packages_apps_UnifiedEmail" />
   <remove-project name="LineageOS/android_bionic" />
@@ -28,10 +27,6 @@
   <remove-project name="LineageOS/android_packages_apps_PackageInstaller" />
 
   <!-- Add own repos -->
-  <project name="cm12-amami/android_build" path="build" remote="github" revision="cm-12.1" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
-
   <project name="cm12-amami/android_frameworks_av" path="frameworks/av" remote="github" revision="cm-12.1"/>
   <project name="cm12-amami/android_frameworks_base" path="frameworks/base" remote="github" revision="cm-12.1"/>
   <project name="cm12-amami/android_frameworks_ex" path="frameworks/ex" remote="github" revision="cm-12.1"/>
