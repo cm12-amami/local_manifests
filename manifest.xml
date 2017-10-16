@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <!-- Common Sony stuff -->
-  <project name="cm12-amami/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" revision="cm-12.1"/>
-  <project name="cm12-amami/android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="github" revision="cm-12.1"/>
-  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.1"/>
-  <project name="LineageOS/android_device_sony_common" path="device/sony/common" remote="github" revision="cm-12.1"/>
-  <project name="LineageOS/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-12.1"/>
-  <project name="LineageOS/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" revision="cm-12.1"/>
-
-  <!-- blobs -->
-  <project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" remote="github" revision="cm-12.1"/>
-
-  <!-- z1c -->
+  <!-- SONY XPERIA Z1 Compact -->
   <project name="cm12-amami/android_device_sony_amami" path="device/sony/amami" remote="github" revision="cm-12.1"/>
   <project name="cm12-amami/android_device_sony_rhine-common" path="device/sony/rhine-common" remote="github" revision="cm-12.1"/>
-
 </manifest>
