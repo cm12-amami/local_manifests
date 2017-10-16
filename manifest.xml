@@ -1,90 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Remove the outdated CM stuff  -->
-  <remove-project name="LineageOS/android_frameworks_av" />
-  <remove-project name="LineageOS/android_frameworks_base" />
-  <remove-project name="LineageOS/android_frameworks_ex" />
-  <remove-project name="LineageOS/android_frameworks_opt_net_wifi" />
-  <remove-project name="LineageOS/android_hardware_qcom_audio" />
-  <remove-project name="LineageOS/android_hardware_qcom_media" />
-  <remove-project name="LineageOS/android_packages_services_Telephony" />
-  <remove-project name="LineageOS/android_system_core" />
-  <remove-project name="platform/external/libnl" />
-  <remove-project name="LineageOS/android_frameworks_native" />
-  <remove-project name="LineageOS/android_external_tremolo" />
-  <remove-project name="platform/external/libhevc" />
-  <remove-project name="LineageOS/android_external_libvpx" />
-  <remove-project name="LineageOS/android_packages_apps_ContactsCommon" />
-  <remove-project name="platform/external/libopus" />
-  <remove-project name="LineageOS/android_hardware_libhardware" />
-  <remove-project name="LineageOS/android_packages_apps_UnifiedEmail" />
-  <remove-project name="LineageOS/android_bionic" />
-  <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
-  <remove-project name="LineageOS/android_external_chromium_org_third_party_boringssl_src" />
-  <remove-project name="LineageOS/android_bootable_recovery" />
-  <remove-project name="LineageOS/android_external_libnfc-nci" />
-  <remove-project name="LineageOS/android_packages_apps_PackageInstaller" />
-  <remove-project name="platform/external/giflib" />
-  <remove-project name="LineageOS/android_external_bluetooth_bluedroid" />
-  <remove-project name="LineageOS/android_external_sonivox" />
-  <remove-project name="LineageOS/android_external_skia" />
-  <remove-project name="LineageOS/android_external_chromium_org_v8" />
-  <remove-project name="LineageOS/android_external_libxml2" />
-  <remove-project name="platform/external/pdfium" />
-  <remove-project name="LineageOS/android_packages_providers_DownloadProvider" />
-  <remove-project name="platform/external/sfntly" />
-  <remove-project name="LineageOS/android_external_jhead" />
-  <remove-project name="LineageOS/android_frameworks_minikin" />
-  <remove-project name="LineageOS/android_packages_apps_Nfc" />
-  <remove-project name="LineageOS/android_external_sqlite" />
-  <remove-project name="LineageOS/android_external_dnsmasq" />
-  <remove-project name="LineageOS/android_hardware_ril" />
-
-  
-  <!-- Add own repos -->
-  <project name="cm12-amami/android_frameworks_av" path="frameworks/av" remote="github" revision="cm-12.1"/>
-  <project name="cm12-amami/android_frameworks_base" path="frameworks/base" remote="github" revision="cm-12.1"/>
-  <project name="cm12-amami/android_frameworks_ex" path="frameworks/ex" remote="github" revision="cm-12.1"/>
-  <project name="cm12-amami/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="github" revision="cm-12.1"/>
-  <project name="cm12-amami/android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="github" revision="cm-12.1"/>
-  <project name="cm12-amami/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8974" remote="github" revision="cm-12.1-caf-8974" />
-  <project name="cm12-amami/android_hardware_qcom_media" path="hardware/qcom/media/default" remote="github" revision="cm-12.1"/>
-  <project name="cm12-amami/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8974" remote="github" revision="cm-12.1-caf-8974" />
-  <project name="cm12-amami/android_packages_services_Telephony" path="packages/services/Telephony" remote="github" revision="cm-12.1"/>
-  <project name="cm12-amami/android_system_core" path="system/core" remote="github" revision="cm-12.1"/>
-  <project name="cm12-amami/android_platform_external_libnl" path="external/libnl" remote="github" revision="cm-12.1" />
-  <project name="cm12-amami/android_frameworks_native" path="frameworks/native" remote="github" revision="cm-12.1" />
-  <project name="cm12-amami/android_external_tremolo" path="external/tremolo" remote="github" revision="cm-12.1" />
-  <project name="cm12-amami/android_external_libhevc" path="external/libhevc" remote="github" revision="cm-12.1" />
-  <project name="cm12-amami/android_external_libvpx" path="external/libvpx" remote="github" revision="cm-12.1" />
-  <project name="cm12-amami/android_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="github" revision="cm-12.1" />
-  <project name="cm12-amami/android_platform_external_libopus" path="external/libopus" remote="github" revision="cm-12.1" />
-  <project name="cm12-amami/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="cm-12.1" />
-  <project name="cm12-amami/android_packages_apps_UnifiedEmail" path="packages/apps/UnifiedEmail" remote="github" revision="cm-12.1" />
-  <project name="cm12-amami/android_bionic" path="bionic" remote="github" revision="cm-12.1" />
-  <project name="cm12-amami/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="github" revision="cm-12.1" />
-  <project name="cm12-amami/android_bootable_recovery" path="bootable/recovery" remote="github" revision="cm-12.1" />
-  <project name="cm12-amami/android_external_libnfc-nci" path="external/libnfc-nci" remote="github" revision="cm-12.1" />
-  <project name="cm12-amami/android_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="github" revision="cm-12.1" />
-  <project name="cm12-amami/android_external_bluetooth_bluedroid" path="external/bluetooth/bluedroid" remote="github" revision="cm-12.1" />
-  <project name="cm12-amami/android_platform_external_giflib" path="external/giflib" remote="github" revision="cm-12.1" />  
-  <project path="external/sonivox" name="cm12-amami/android_external_sonivox" remote="github" revision="cm-12.1" />
-  <project path="external/skia" name="cm12-amami/android_external_skia" remote="github" revision="cm-12.1" />
-  <project path="external/chromium_org/v8" name="cm12-amami/android_external_chromium_org_v8" remote="github" revision="cm-12.1" /> 
-  <project path="external/libxml2" name="cm12-amami/android_external_libxml2" remote="github" revision="cm-12.1" />
-  <project path="external/pdfium" name="cm12-amami/android_external_pdfium" remote="github" revision="cm-12.1" />
-  <project path="packages/providers/DownloadProvider" name="cm12-amami/android_packages_providers_DownloadProvider" remote="github" revision="cm-12.1" />
-  <project name="cm12-amami/android_external_sfntly" path="external/sfntly" remote="github" revision="cm-12.1"/>
-  <project name="platform/external/jhead" path="external/jhead" remote="aosp" revision="refs/tags/android-6.0.1_r81"/>
-  <project name="cm12-amami/android_frameworks_minikin" path="frameworks/minikin" remote="github" revision="cm-12.1" />
-  <project name="cm12-amami/android_packages_apps_Nfc" path="packages/apps/Nfc" remote="github" revision="cm-12.1" />
-  <project name="cm12-amami/android_external_sqlite" path="external/sqlite" remote="github" revision="cm-12.1" />
-  <project name="platform/external/dnsmasq" path="external/dnsmasq" remote="aosp" revision="refs/tags/android-6.0.1_r81" />
-  <project path="hardware/ril" name="cm12-amami/android_hardware_ril" groups="pdk" />
-  <project path="hardware/ril-caf" name="cm12-amami/android_hardware_ril" groups="pdk" revision="cm-12.1-caf" />
-  
-  <!-- common Sony stuff -->
+  <!-- Common Sony stuff -->
   <project name="cm12-amami/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" revision="cm-12.1"/>
   <project name="cm12-amami/android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="github" revision="cm-12.1"/>
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.1"/>
@@ -98,34 +15,5 @@
   <!-- z1c -->
   <project name="cm12-amami/android_device_sony_amami" path="device/sony/amami" remote="github" revision="cm-12.1"/>
   <project name="cm12-amami/android_device_sony_rhine-common" path="device/sony/rhine-common" remote="github" revision="cm-12.1"/>
-
-  <!-- Take freetype from LOS CM-13.0 branch to use V2.7, see CVE-2016-10244 in April 2017 ASB -->
-  <remove-project name="LineageOS/android_external_freetype" />
-  <project path="external/freetype" name="LineageOS/android_external_freetype" groups="pdk" remote="github" revision="cm-13.0" />
-
-  <!-- Own repo for vendor/cm: Remove CMUpdater, LOS boot animation, misc. -->
-  <remove-project name="LineageOS/android_packages_apps_CMUpdater" />
-  <remove-project name="LineageOS/android_vendor_cm" />
-  <project path="vendor/cm" name="cm12-amami/android_vendor_cm" remote="github" revision="cm-12.1" />
-  
-  <!-- Actual Webview.apk as prebuilt from cm-14.1 branch -->
-  <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" clone-depth="1" revision="cm-14.1" />
-  
-  <!-- Replace outdated Browser.apk with Privacy-Browser (stoutner.com) -->
-  <remove-project name="LineageOS/android_packages_apps_Browser" />
-  <remote name="stoutner" fetch="git://git.stoutner.com" />
-  <project path="external/stoutner/privacy-browser" remote="stoutner"
-           name="git/PrivacyBrowserROMIntegration.git" revision="master" />
-
-  <!-- Get rid of Google and CM-Tracking -->
-  <remove-project name="LineageOS/android_external_google" />
-  <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
-  <remove-project name="LineageOS/android_packages_apps_LockClock" />
-  <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
-  <remove-project name="LineageOS/android_packages_apps_Settings" />
-  <project path="packages/apps/Trebuchet" name="cm12-amami/android_packages_apps_Trebuchet" remote="github" revision="cm-12.1" />
-  <project path="packages/apps/LockClock" name="cm12-amami/android_packages_apps_LockClock" remote="github" revision="cm-12.1" />
-  <project path="packages/apps/SetupWizard" name="cm12-amami/android_packages_apps_SetupWizard" remote="github" revision="cm-12.1" />
-  <project path="packages/apps/Settings" name="cm12-amami/android_packages_apps_Settings" remote="github" revision="cm-12.1" />
 
 </manifest>
