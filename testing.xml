@@ -13,7 +13,4 @@
   <remove-project name="cm12-amami/android_frameworks_av" />
   <project name="cm12-amami/android_frameworks_av" path="frameworks/av" revision="cm-12.1-test" />
 
-  <remove-project name="LineageOS/android_external_wpa_supplicant_8" />
-  <project name="cm12-amami/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" revision="cm-12.1" />
-
 </manifest>
