@@ -2,7 +2,7 @@
 <manifest>
   <!-- 
 
-    PLEASE ONLY EDIT THIS FILE FOIR THE 'cm12.1-test' branch to replace repositories! 
+    PLEASE ONLY EDIT THIS FILE FOR THE 'cm12.1-test' branch to replace repositories! 
 
     'build' and 'kernel' are ALWAYS subject to ASB changes, therefore they are replaced 
     by default in manifest.xml to point to 'cm-12.1-test'.
@@ -12,5 +12,14 @@
 
   <remove-project name="cm12-amami/android_frameworks_av" />
   <project name="cm12-amami/android_frameworks_av" path="frameworks/av" revision="cm-12.1-test" />
+
+  <remove-project name="cm12-amami/android_external_libhevc" />
+  <project name="cm12-amami/android_external_libhevc" path="external/libhevc" revision="cm-12.1-test" />
+
+  <remove-project name="LineageOS/android_external_openssl" />
+  <project name="cm12-amami/android_external_openssl" path="external/openssl" revision="cm-12.1" />
+
+  <remove-project name="cm12-amami/android_system_core" />
+  <project name="cm12-amami/android_system_core" path="system/core" revision="cm-12.1-test" />
 
 </manifest>
