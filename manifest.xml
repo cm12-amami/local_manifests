@@ -3,7 +3,7 @@
 
   <!-- TWRP replacements-->
   <remove-project name="cm12-amami/android_bootable_recovery" />
-  <project name="omnirom/android_bootable_recovery" path="bootable/recovery" revision="android-7.1"/>
+  <project name="omnirom/android_bootable_recovery" path="bootable/recovery" revision="android-8.0"/>
   <remove-project name="cm12-amami/android_device_sony_msm8974-common" />  
   <project name="cm12-amami/android_device_sony_msm8974-common" path="device/sony/msm8974-common" revision="cm-12.1-twrp"/>
 
