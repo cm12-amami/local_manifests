@@ -7,7 +7,7 @@
 
   <!-- Common Sony stuff (Note: Kernel points always to 'cm-12.1-test') -->
   <remove-project name="cm12-amami/android_kernel_sony_msm8974" />
-  <project name="cm12-amami/android_kernel_sony_msm8974" path="kernel/sony/msm8974" revision="cm-12.1-test"/>
+  <project name="cm12-amami/android_kernel_sony_msm8974" path="kernel/sony/msm8974" revision="cm-12.1-dec"/>
 
   <!-- SONY XPERIA Z1 Compact -->
   <project name="cm12-amami/android_device_sony_amami" path="device/sony/amami" revision="cm-12.1"/>
