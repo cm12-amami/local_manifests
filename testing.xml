@@ -27,4 +27,10 @@
   <remove-project name="cm12-amami/android_external_sqlite" />
   <project name="cm12-amami/android_external_sqlite" path="external/sqlite" revision="cm-12.1-test" />
 
+  <remove-project name="cm12-amami/android_system_core" />
+  <project name="cm12-amami/android_system_core" path="system/core" revision="cm-12.1-test" />
+
+  <remove-project name="LineageOS/android_system_media" />
+  <project name="cm12-amami/android_system_media" path="system/media" revision="cm-12.1" />
+
 </manifest>
