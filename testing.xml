@@ -21,25 +21,4 @@
 
   <!-- Here comes the individual stuff for the respective ASB -->
 
-  <remove-project name="cm12-amami/android_frameworks_base" />
-  <project name="cm12-amami/android_frameworks_base" path="frameworks/base" revision="cm-12.1-test" />
-
-  <remove-project name="cm12-amami/android_external_sqlite" />
-  <project name="cm12-amami/android_external_sqlite" path="external/sqlite" revision="cm-12.1-test" />
-
-  <remove-project name="cm12-amami/android_system_core" />
-  <project name="cm12-amami/android_system_core" path="system/core" revision="cm-12.1-test" />
-
-  <remove-project name="LineageOS/android_system_media" />
-  <project name="cm12-amami/android_system_media" path="system/media" revision="cm-12.1" />
-
-  <remove-project name="LineageOS/android_external_aac" />
-  <project name="cm12-amami/android_external_aac" path="external/aac" revision="cm-12.1" />
-
-  <remove-project name="cm12-amami/android_external_libvpx" />
-  <project name="cm12-amami/android_external_libvpx" path="external/libvpx" revision="cm-12.1-test" />
-
-  <remove-project name="cm12-amami/android_frameworks_ex" />
-  <project name="cm12-amami/android_frameworks_ex" path="frameworks/ex" revision="cm-12.1-test" />
-
 </manifest>
