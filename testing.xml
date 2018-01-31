@@ -29,4 +29,7 @@
   <remove-project name="cm12-amami/android_external_sonivox" />
   <project name="cm12-amami/android_external_sonivox" path="external/sonivox" revision="cm-12.1-test" />
 
+  <remove-project name="cm12-amami/android_packages_apps_Settings" />
+  <project name="cm12-amami/android_packages_apps_Settings" path="packages/apps/Settings" revision="cm-12.1-test" />
+
 </manifest>
