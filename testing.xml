@@ -21,5 +21,10 @@
 
   <!-- Here comes the individual stuff for the respective ASB -->
 
+  <project name="platform/system/ca-certificates" path="system/ca-certificates" remote="aosp" revision="master" />
+
+  <remove-project name="LineageOS/android_libcore" />
+  <project name="cm12-amami/android_libcore" path="libcore" revision="cm-12.1" />
+
 
 </manifest>
