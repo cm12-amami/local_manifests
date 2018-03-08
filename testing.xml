@@ -26,5 +26,7 @@
   <remove-project name="LineageOS/android_libcore" />
   <project name="cm12-amami/android_libcore" path="libcore" revision="cm-12.1" />
 
+  <remove-project name="cm12-amami/android_external_bluetooth_bluedroid" />
+  <project name="cm12-amami/android_external_bluetooth_bluedroid" path="external/bluetooth/bluedroid" revision="cm-12.1-test"/>
 
 </manifest>
