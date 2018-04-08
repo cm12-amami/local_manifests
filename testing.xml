@@ -24,4 +24,8 @@
     <remove-project name="LineageOS/android_device_common" />
     <project name="cm12-amami/android_device_common" path="device/common" revision="cm-12.1-test" />
 
+    <remove-project name="cm12-amami/android_frameworks_base" />
+    <project name="cm12-amami/android_frameworks_base" path="frameworks/base" revision="cm-12.1-test" />
+
+
 </manifest>
