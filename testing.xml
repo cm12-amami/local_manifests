@@ -21,5 +21,7 @@
 
   <!-- Here comes the individual stuff for the respective ASB -->
 
+    <remove-project name="LineageOS/android_device_common" />
+    <project name="cm12-amami/android_device_common" path="device/common" revision="cm-12.1-test" />
 
 </manifest>
