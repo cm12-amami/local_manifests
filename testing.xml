@@ -37,5 +37,7 @@
     <remove-project name="cm12-amami/android_frameworks_ex" /> 
     <project name="cm12-amami/android_frameworks_ex" path="frameworks/ex" revision="cm-12.1-test" />
 
+    <remove-project name="platform/external/svox" /> 
+    <project name="cm12-amami/android_external_svox" path="external/svox" revision="cm-12.1" />
 
 </manifest>
