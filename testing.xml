@@ -40,4 +40,10 @@
     <remove-project name="platform/external/svox" /> 
     <project name="cm12-amami/android_external_svox" path="external/svox" revision="cm-12.1" />
 
+    <remove-project name="cm12-amami/android_packages_apps_UnifiedEmail" />
+    <project name="cm12-amami/android_packages_apps_UnifiedEmail" path="packages/apps/UnifiedEmail" revision="cm-12.1-test" />
+
+    <remove-project name="LineageOS/android_packages_apps_Email" />
+    <project name="cm12-amami/android_packages_apps_Email" path="packages/apps/Email" revision="cm-12.1" />
+
 </manifest>
