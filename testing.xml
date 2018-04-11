@@ -46,4 +46,7 @@
     <remove-project name="LineageOS/android_packages_apps_Email" />
     <project name="cm12-amami/android_packages_apps_Email" path="packages/apps/Email" revision="cm-12.1" />
 
+    <remove-project name="LineageOS/android_packages_apps_Dialer" />
+    <project name="cm12-amami/android_packages_apps_Dialer" path="packages/apps/Dialer" revision="cm-12.1" />
+
 </manifest>
