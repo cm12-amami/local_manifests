@@ -20,32 +20,4 @@
 
   <!-- Here comes the individual stuff for the respective ASB -->
 
-  <remove-project name="cm12-amami/android_external_aac" />
-  <project name="cm12-amami/android_external_aac" path="external/aac" revision="cm-12.1-test" />
-
-  <remove-project name="LineageOS/android_device_common" />
-  <project name="cm12-amami/android_device_common" path="device/common" revision="cm-12.1-test" />
-
-  <remove-project name="cm12-amami/android_device_sony_rhine-common" />
-  <project name="cm12-amami/android_device_sony_rhine-common" 
-           path="device/sony/rhine-common" revision="cm-12.1-test" />
-
-  <remove-project name="cm12-amami/android_frameworks_base" />
-  <project name="cm12-amami/android_frameworks_base" path="frameworks/base" revision="cm-12.1-test" />
-
-  <remove-project name="cm12-amami/android_frameworks_ex" /> 
-  <project name="cm12-amami/android_frameworks_ex" path="frameworks/ex" revision="cm-12.1-test" />
-
-  <remove-project name="platform/external/svox" /> 
-  <project name="cm12-amami/android_external_svox" path="external/svox" revision="cm-12.1" />
-
-  <remove-project name="cm12-amami/android_packages_apps_UnifiedEmail" />
-  <project name="cm12-amami/android_packages_apps_UnifiedEmail" path="packages/apps/UnifiedEmail" revision="cm-12.1-test" />
-
-  <remove-project name="LineageOS/android_packages_apps_Email" />
-  <project name="cm12-amami/android_packages_apps_Email" path="packages/apps/Email" revision="cm-12.1" />
-
-  <remove-project name="LineageOS/android_packages_apps_Dialer" />
-  <project name="cm12-amami/android_packages_apps_Dialer" path="packages/apps/Dialer" revision="cm-12.1" />
-
 </manifest>
