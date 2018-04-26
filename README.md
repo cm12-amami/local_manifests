@@ -2,7 +2,8 @@
 
 ## This is work in progress
 
-build 
+sync source code
+```
 cd ~/where/you want
 repo init -u https://github.com/LineageOS/android.git -b cm-14.1
 cd .repo
@@ -11,6 +12,9 @@ cd local_manifests
 git checkout cm-14.1 
 cd ../.. 
 repo sync
+```
+build 
+```
 source build/envsetup.sh
 export USE_CCACHE=1
 ccache -M 50G
@@ -18,7 +22,7 @@ export CCACHE_COMPRESS=1
 export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4G"
 croot
 brunch amami
-
+```
 
 
 
