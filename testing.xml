@@ -30,4 +30,7 @@
   <remove-project name="cm12-amami/android_system_core" />
   <project name="cm12-amami/android_system_core" path="system/core" revision="cm-12.1-test" />
 
+  <remove-project name="cm12-amami/android_packages_services_Telephony" />
+  <project name="cm12-amami/android_packages_services_Telephony" path="packages/services/Telephony" revision="cm-12.1-test" />
+
 </manifest>
