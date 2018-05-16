@@ -23,14 +23,4 @@
   <remove-project name="cm12-amami/android_frameworks_base" />
   <project name="cm12-amami/android_frameworks_base" path="frameworks/base" revision="cm-12.1-test" />
 
-  <remove-project name="LineageOS/android_external_chromium-webview" />
-  <project name="LineageOS/android_external_chromium-webview" 
-           path="external/chromium-webview" clone-depth="1" revision="lineage-15.1" />
-
-  <remove-project name="cm12-amami/android_system_core" />
-  <project name="cm12-amami/android_system_core" path="system/core" revision="cm-12.1-test" />
-
-  <remove-project name="cm12-amami/android_packages_services_Telephony" />
-  <project name="cm12-amami/android_packages_services_Telephony" path="packages/services/Telephony" revision="cm-12.1-test" />
-
 </manifest>
