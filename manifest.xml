@@ -3,7 +3,8 @@
     <project name="cm12-amami/android_device_sony_amami" path="device/sony/amami" revision="cm-14.1"/>
     <project name="cm12-amami/android_device_sony_rhine-common" path="device/sony/rhine-common" revision="cm-14.1"/>
     <project name="cm12-amami/android_device_sony_msm8974-common" path="device/sony/msm8974-common" revision="cm-14.1"/>
-    <project name="SuperLamic/android_kernel_sony_msm8974" path="kernel/sony/msm8974" revision="cm-14.1"/>
+    <!--project name="cm12-amami/android_kernel_sony_msm8974" path="kernel/sony/msm8974" revision="cm-14.1-merge"/-->
+    <project name="AICP/kernel_sony_msm8974" path="kernel/sony/msm8974" revision="o8.1"/>
     <project name="sonyxperiadev/boringssl-compat" path="external/sony/boringssl-compat" revision="master"/>
     <project name="LineageOS/android_device_sony_common" path="device/sony/common" revision="cm-14.1"/>
     <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" revision="cm-14.1"/>
