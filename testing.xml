@@ -23,4 +23,13 @@
   <remove-project name="cm12-amami/android_frameworks_base" />
   <project name="cm12-amami/android_frameworks_base" path="frameworks/base" revision="cm-12.1-test" />
 
+  <remove-project name="cm12-amami/android_external_sonivox" />
+  <project name="cm12-amami/android_external_sonivox" path="external/sonivox" revision="cm-12.1-test" />
+
+  <remove-project name="cm12-amami/android_external_bluetooth_bluedroid" />
+  <project name="cm12-amami/android_external_bluetooth_bluedroid" path="external/bluetooth/bluedroid" revision="cm-12.1-test" />
+
+  <remove-project name="LineageOS/android_frameworks_opt_telephony" />
+  <project name="cm12-amami/android_frameworks_opt_telephony" path="frameworks/opt/telephony" revision="cm-12.1" />
+
 </manifest>
