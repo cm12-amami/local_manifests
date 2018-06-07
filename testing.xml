@@ -41,4 +41,7 @@
   <remove-project name="platform/external/libvorbis" />
   <project name="cm12-amami/android_external_libvorbis" path="external/libvorbis" revision="cm-12.1" /> 
 
+  <remove-project name="LineageOS/android_packages_providers_MediaProvider" />
+  <project name="cm12-amami/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" revision="cm-12.1" />
+
 </manifest>
