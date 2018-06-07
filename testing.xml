@@ -38,4 +38,7 @@
   <remove-project name="cm12-amami/android_external_libvpx" />
   <project name="cm12-amami/android_external_libvpx" path="external/libvpx" revision="cm-12.1-test" />
 
+  <remove-project name="platform/external/libvorbis" />
+  <project name="cm12-amami/android_external_libvorbis" path="external/libvorbis" revision="cm-12.1" /> 
+
 </manifest>
