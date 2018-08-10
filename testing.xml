@@ -20,4 +20,22 @@
 
   <!-- Here comes the individual stuff for the respective ASB -->
 
+  <remove-project name="LineageOS/android_external_e2fsprogs" />
+  <project name="cm12-amami/android_external_e2fsprogs" path="external/e2fsprogs" revision="cm-12.1" />
+
+  <remove-project name="LineageOS/android_system_vold" />
+  <project name="cm12-amami/android_system_vold" path="system/vold" revision="cm-12.1" />
+
+  <remove-project name="cm12-amami/android_frameworks_base" />
+  <project name="cm12-amami/android_frameworks_base" path="frameworks/base" revision="cm-12.1-test" />
+
+  <remove-project name="cm12-amami/android_packages_apps_UnifiedEmail" />
+  <project name="cm12-amami/android_packages_apps_UnifiedEmail" path="packages/apps/UnifiedEmail" revision="cm-12.1-test" />
+
+  <remove-project name="cm12-amami/android_packages_services_Telephony" />
+  <project name="cm12-amami/android_packages_services_Telephony" path="packages/services/Telephony" revision="cm-12.1-test" />
+
+  <remove-project name="cm12-amami/android_external_bluetooth_bluedroid" />
+  <project name="cm12-amami/android_external_bluetooth_bluedroid" path="external/bluetooth/bluedroid" revision="cm-12.1-test" />
+
 </manifest>
