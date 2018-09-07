@@ -36,4 +36,11 @@
   <project name="cm12-amami/android_external_neven" 
            path="external/neven" groups="pdk-cw-fs" revision="cm-12.1" />
 
+  <remove-project name="cm12-amami/android_libcore" />
+  <project name="cm12-amami/android_libcore" path="libcore" revision="cm-12.1-test" />
+
+  <remove-project name="cm12-amami/android_external_libxml2" />
+  <project name="cm12-amami/android_external_libxml2" 
+           path="external/libxml2" revision="cm-12.1-test" />
+
 </manifest>
