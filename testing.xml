@@ -43,4 +43,10 @@
   <project name="cm12-amami/android_external_libxml2" 
            path="external/libxml2" revision="cm-12.1-test" />
 
+  <remove-project name="cm12-amami/android_hardware_qcom_media" />
+  <project name="cm12-amami/android_hardware_qcom_media" 
+           path="hardware/qcom/media/default" revision="cm-12.1" />
+  <project name="cm12-amami/android_hardware_qcom_media" 
+           path="hardware/qcom/media-caf/msm8974" revision="cm-12.1-caf-8974-test" />
+
 </manifest>
