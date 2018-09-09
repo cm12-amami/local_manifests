@@ -10,43 +10,17 @@
 
   -->
 
-  <!-- The Media framework has got a 'permanent subscription' in the ASB :) -->
+  <!-- The Media framework (frameworks/av) has got a 'permanent subscription' in the ASB :) 
+       Meanwhile, same applies to external/bluetooth/bluedroid -->
 
   <remove-project name="cm12-amami/android_frameworks_av" />
   <project name="cm12-amami/android_frameworks_av" path="frameworks/av" revision="cm-12.1-test" />
-
-  <remove-project name="cm12-amami/android_external_libhevc" />
-  <project name="cm12-amami/android_external_libhevc" path="external/libhevc" revision="cm-12.1-test" />
-
-  <!-- Here comes the individual stuff for the respective ASB -->
-
-  <remove-project name="cm12-amami/android_packages_providers_DownloadProvider" />
-  <project name="cm12-amami/android_packages_providers_DownloadProvider" 
-           path="packages/providers/DownloadProvider" revision="cm-12.1-test" />
-
-  <remove-project name="cm12-amami/android_frameworks_base" />
-  <project name="cm12-amami/android_frameworks_base" 
-           path="frameworks/base" revision="cm-12.1-test" />
 
   <remove-project name="cm12-amami/android_external_bluetooth_bluedroid" />
   <project name="cm12-amami/android_external_bluetooth_bluedroid" 
            path="external/bluetooth/bluedroid" revision="cm-12.1-test" />
 
-  <remove-project name="platform/external/neven" />
-  <project name="cm12-amami/android_external_neven" 
-           path="external/neven" groups="pdk-cw-fs" revision="cm-12.1" />
+  <!-- Here comes the individual stuff for the respective ASB -->
 
-  <remove-project name="cm12-amami/android_libcore" />
-  <project name="cm12-amami/android_libcore" path="libcore" revision="cm-12.1-test" />
-
-  <remove-project name="cm12-amami/android_external_libxml2" />
-  <project name="cm12-amami/android_external_libxml2" 
-           path="external/libxml2" revision="cm-12.1-test" />
-
-  <remove-project name="cm12-amami/android_hardware_qcom_media" />
-  <project name="cm12-amami/android_hardware_qcom_media" 
-           path="hardware/qcom/media/default" revision="cm-12.1" />
-  <project name="cm12-amami/android_hardware_qcom_media" 
-           path="hardware/qcom/media-caf/msm8974" revision="cm-12.1-caf-8974-test" />
 
 </manifest>
