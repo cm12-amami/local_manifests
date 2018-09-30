@@ -22,5 +22,7 @@
 
   <!-- Here comes the individual stuff for the respective ASB -->
 
+  <remove-project name="cm12-amami/android_packages_apps_Settings" />
+  <project name="cm12-amami/android_packages_apps_Settings" path="packages/apps/Settings" revision="cm-12.1-test" />
 
 </manifest>
