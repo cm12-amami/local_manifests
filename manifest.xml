@@ -3,4 +3,7 @@
   <!-- SONY XPERIA Z1 Compact -->
   <project name="cm12-amami/android_device_sony_amami" path="device/sony/amami" remote="github" revision="cm-12.1"/>
   <project name="cm12-amami/android_device_sony_rhine-common" path="device/sony/rhine-common" remote="github" revision="cm-12.1"/>
+
+  <!-- Privacy friendly netmonitor -->
+  <project name="MSe1969/privacy-friendly-netmonitor-prebuilt" path="external/secuso/privacy-friendly-netmonitor-prebuilt" revision="master" clone-depth="1" />
 </manifest>
