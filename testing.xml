@@ -23,4 +23,9 @@
        
   <!-- Here comes the individual stuff for the respective ASB -->
 
+  <remove-project name="cm12-amami/android_external_aac" />
+  <project name="cm12-amami/android_external_aac" path="external/aac" revision="cm-12.1-test" />
+
+  
+
 </manifest>
