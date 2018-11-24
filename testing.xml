@@ -26,6 +26,16 @@
   <remove-project name="cm12-amami/android_external_aac" />
   <project name="cm12-amami/android_external_aac" path="external/aac" revision="cm-12.1-test" />
 
+  <remove-project name="cm12-amami/android_system_core" />
+  <project name="cm12-amami/android_system_core" path="system/core" revision="cm-12.1-test" />
+
+  <remove-project name="cm12-amami/android_vendor_cm" />
+  <project name="cm12-amami/android_vendor_cm" path="vendor/cm" revision="cm-12.1-test" />
   
+  <remove-project name="cm12-amami/android_packages_apps_Settings" />
+  <project name="cm12-amami/android_packages_apps_Settings" path="packages/apps/Settings" revision="cm-12.1-test" />
+
+  <remove-project name="cm12-amami/android_frameworks_base" />
+  <project name="cm12-amami/android_frameworks_base" path="frameworks/base" revision="cm-12.1-test" />
 
 </manifest>
