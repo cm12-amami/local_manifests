@@ -3,7 +3,7 @@
 ## How launch a cm-12.1 build:
 ```Shell session
 make clean  
-repo sync  
+repo sync --no-tags
 source build/envsetup.sh  
 brunch amami  
 ```
