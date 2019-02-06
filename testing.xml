@@ -31,4 +31,19 @@
   <project name="cm12-amami/android_frameworks_opt_telephony" 
            path="frameworks/opt/telephony" revision="cm-12.1-test" />
 
+  <remove-project name="cm12-amami/android_packages_apps_Email" />
+  <project name="cm12-amami/android_packages_apps_Email" 
+           path="packages/apps/Email" revision="cm-12.1-test" />
+
+  <remove-project name="cm12-amami/android_packages_apps_UnifiedEmail" />
+  <project name="cm12-amami/android_packages_apps_UnifiedEmail" 
+           path="packages/apps/UnifiedEmail" revision="cm-12.1-test" />
+
+  <remove-project name="cm12-amami/android_external_wpa_supplicant_8" />
+  <project name="cm12-amami/android_external_wpa_supplicant_8" 
+           path="external/wpa_supplicant_8" revision="cm-12.1-test" />
+
+  <remove-project name="cm12-amami/android_vendor_cm" />
+  <project name="cm12-amami/android_vendor_cm" path="vendor/cm" revision="cm-12.1-test" />
+
 </manifest>
