@@ -10,11 +10,7 @@
 
   -->
 
-  <!-- The Media framework (frameworks/av) has got a 'permanent subscription' in the ASB :) 
-       Meanwhile, same applies to external/bluetooth/bluedroid -->
-
-  <remove-project name="cm12-amami/android_frameworks_av" />
-  <project name="cm12-amami/android_frameworks_av" path="frameworks/av" revision="cm-12.1-test" />
+  <!-- The external/bluetooth/bluedroid has got a 'permanent subscription' in the ASB :) -->
 
   <remove-project name="cm12-amami/android_external_bluetooth_bluedroid" />
   <project name="cm12-amami/android_external_bluetooth_bluedroid" 
@@ -23,29 +19,5 @@
        
   <!-- Here comes the individual stuff for the respective ASB -->
 
-  <remove-project name="LineageOS/android_packages_apps_ManagedProvisioning" />
-  <project name="cm12-amami/android_packages_apps_ManagedProvisioning" 
-           path="packages/apps/ManagedProvisioning" />
-
-  <remove-project name="cm12-amami/android_frameworks_opt_telephony" />
-  <project name="cm12-amami/android_frameworks_opt_telephony" 
-           path="frameworks/opt/telephony" revision="cm-12.1-test" />
-
-  <remove-project name="cm12-amami/android_packages_apps_Email" />
-  <project name="cm12-amami/android_packages_apps_Email" 
-           path="packages/apps/Email" revision="cm-12.1-test" />
-
-  <remove-project name="cm12-amami/android_packages_apps_UnifiedEmail" />
-  <project name="cm12-amami/android_packages_apps_UnifiedEmail" 
-           path="packages/apps/UnifiedEmail" revision="cm-12.1-test" />
-
-  <remove-project name="cm12-amami/android_external_wpa_supplicant_8" />
-  <project name="cm12-amami/android_external_wpa_supplicant_8" 
-           path="external/wpa_supplicant_8" revision="cm-12.1-test" />
-
-  <remove-project name="cm12-amami/android_vendor_cm" />
-  <project name="cm12-amami/android_vendor_cm" path="vendor/cm" revision="cm-12.1-test" />
-
-  <remove-project name="platform/external/opencv" />
 
 </manifest>
