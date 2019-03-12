@@ -10,14 +10,26 @@
 
   -->
 
-  <!-- The external/bluetooth/bluedroid has got a 'permanent subscription' in the ASB :) -->
+  <!-- The external/bluetooth/bluedroid and external/libnfc-nci have got 
+       a 'permanent subscription' in the ASB :) -->
 
   <remove-project name="cm12-amami/android_external_bluetooth_bluedroid" />
   <project name="cm12-amami/android_external_bluetooth_bluedroid" 
            path="external/bluetooth/bluedroid" revision="cm-12.1-test" />
   
-       
+  <remove-project name="cm12-amami/android_external_libnfc-nci" />
+  <project name="cm12-amami/android_external_libnfc-nci" 
+           path="external/libnfc-nci" revision="cm-12.1-test" />
+
+
   <!-- Here comes the individual stuff for the respective ASB -->
 
+  <remove-project name="cm12-amami/android_frameworks_native" />
+  <project name="cm12-amami/android_frameworks_native" 
+           path="frameworks/native" revision="cm-12.1-test" />
+
+  <remove-project name="cm12-amami/android_frameworks_base" />
+  <project name="cm12-amami/android_frameworks_base" 
+           path="frameworks/base" revision="cm-12.1-test" />
 
 </manifest>
