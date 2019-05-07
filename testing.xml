@@ -23,7 +23,5 @@
 
 
   <!-- Here comes the individual stuff for the respective ASB -->
-  <remove-project name="cm12-amami/android_external_tremolo" />
-  <project name="cm12-amami/android_external_tremolo" 
-           path="external/tremolo" revision="cm-12.1-test" />
+
 </manifest>
