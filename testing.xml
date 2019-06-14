@@ -27,4 +27,12 @@
   <project name="cm12-amami/android_frameworks_base" 
            path="frameworks/base" revision="cm-12.1-test" />
 
+  <remove-project name="cm12-amami/android_frameworks_av" />
+  <project name="cm12-amami/android_frameworks_av" 
+           path="frameworks/av" revision="cm-12.1-test" />
+
+  <remove-project name="cm12-amami/android_external_chromium_org_v8" />
+  <project name="cm12-amami/android_external_chromium_org_v8" 
+           path="external/chromium_org/v8" revision="cm-12.1-test" />
+
 </manifest>
