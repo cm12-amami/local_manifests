@@ -23,5 +23,12 @@
 
 
   <!-- Here comes the individual stuff for the respective ASB -->
+  <remove-project name="cm12-amami/android_external_libhevc" />
+  <project name="cm12-amami/android_external_libhevc" 
+           path="external/libhevc" revision="cm-12.1-test" />
+
+  <remove-project name="cm12-amami/android_external_sfntly" />
+  <project name="cm12-amami/android_external_sfntly" 
+           path="external/sfntly" revision="cm-12.1-test" />
 
 </manifest>
