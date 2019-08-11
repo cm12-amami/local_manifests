@@ -10,56 +10,7 @@
 
   -->
 
-  <!-- The external/bluetooth/bluedroid and external/libnfc-nci have got 
-       a 'permanent subscription' in the ASB :) 
-
-  <remove-project name="cm12-amami/android_external_bluetooth_bluedroid" />
-  <project name="cm12-amami/android_external_bluetooth_bluedroid" 
-           path="external/bluetooth/bluedroid" revision="cm-12.1-test" />
-  
-  <remove-project name="cm12-amami/android_external_libnfc-nci" />
-  <project name="cm12-amami/android_external_libnfc-nci" 
-           path="external/libnfc-nci" revision="cm-12.1-test" />
-  -->
-
   <!-- Here comes the individual stuff for the respective ASB -->
-  <remove-project name="cm12-amami/android_frameworks_base" />
-  <project name="cm12-amami/android_frameworks_base" 
-           path="frameworks/base" revision="cm-12.1-test" />
 
-  <remove-project name="LineageOS/android_art" />
-  <project name="cm12-amami/android_art" path="art" />
-
-  <remove-project name="cm12-amami/android_packages_apps_Settings" />
-  <project name="cm12-amami/android_packages_apps_Settings" 
-           path="packages/apps/Settings" revision="cm-12.1-test" />
-
-  <remove-project name="cm12-amami/android_packages_apps_Email" />
-  <project name="cm12-amami/android_packages_apps_Email" 
-           path="packages/apps/Email" revision="cm-12.1-test" />
-
-  <remove-project name="cm12-amami/android_packages_apps_UnifiedEmail" />
-  <project name="cm12-amami/android_packages_apps_UnifiedEmail" 
-           path="packages/apps/UnifiedEmail" revision="cm-12.1-test" />
-
-  <remove-project name="cm12-amami/android_external_libvpx" />
-  <project name="cm12-amami/android_external_libvpx" 
-           path="external/libvpx" revision="cm-12.1-test" />
-
-  <remove-project name="platform/external/chromium-libpac" />
-  <project name="cm12-amami/android_external_chromium-libpac" 
-           path="external/chromium-libpac" />
-
-  <remove-project name="cm12-amami/android_frameworks_av" />
-  <project name="cm12-amami/android_frameworks_av" 
-           path="frameworks/av" revision="cm-12.1-test" />
-
-  <remove-project name="cm12-amami/android_frameworks_native" />
-  <project name="cm12-amami/android_frameworks_native" 
-           path="frameworks/native" revision="cm-12.1-test" />
-
-  <remove-project name="cm12-amami/android_external_libhevc" />
-  <project name="cm12-amami/android_external_libhevc" 
-           path="external/libhevc" revision="cm-12.1-test" />
 
 </manifest>
