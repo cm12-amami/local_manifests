@@ -11,6 +11,16 @@
   -->
 
   <!-- Here comes the individual stuff for the respective ASB -->
+  <remove-project name="cm12-amami/android_external_sqlite" />
+  <project name="cm12-amami/android_external_sqlite" path="external/sqlite" groups="pdk" revision="cm-12.1-test" />
 
+  <remove-project name="cm12-amami/android_packages_apps_Email" />  
+  <project name="cm12-amami/android_packages_apps_Email" path="packages/apps/Email" revision="cm-12.1-test" />
+
+  <remove-project name="cm12-amami/android_external_libnfc-nci" />
+  <project name="cm12-amami/android_external_libnfc-nci" path="external/libnfc-nci" groups="pdk" revision="cm-12.1-test" />
+
+  <remove-project name="cm12-amami/android_frameworks_native" />
+  <project name="cm12-amami/android_frameworks_native" path="frameworks/native" groups="pdk" revision="cm-12.1-test" />
 
 </manifest>
