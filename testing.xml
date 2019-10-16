@@ -12,10 +12,5 @@
 
   <!-- Here comes the individual stuff for the respective ASB -->
 
-  <remove-project name="cm12-amami/android_packages_apps_Nfc" />  
-  <project name="cm12-amami/android_packages_apps_Nfc" path="packages/apps/Nfc" revision="cm-12.1-test" />
-
-  <remove-project name="cm12-amami/android_frameworks_av" />
-  <project name="cm12-amami/android_frameworks_av" path="frameworks/av" groups="pdk" revision="cm-12.1-test" />
 
 </manifest>
