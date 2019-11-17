@@ -12,22 +12,5 @@
 
   <!-- Here comes the individual stuff for the respective ASB -->
 
-  <remove-project name="cm12-amami/android_external_bluetooth_bluedroid" />
-  <project name="cm12-amami/android_external_bluetooth_bluedroid" path="external/bluetooth/bluedroid" groups="pdk" revision="cm-12.1-test" />
-
-  <remove-project name="cm12-amami/android_external_libnfc-nci" />
-  <project name="cm12-amami/android_external_libnfc-nci" path="external/libnfc-nci" groups="pdk" revision="cm-12.1-test" />
-
-  <remove-project name="cm12-amami/android_external_sqlite" />
-  <project name="cm12-amami/android_external_sqlite" path="external/sqlite" groups="pdk" revision="cm-12.1-test" />
-
-  <remove-project name="cm12-amami/android_frameworks_base" />
-  <project name="cm12-amami/android_frameworks_base" path="frameworks/base" revision="cm-12.1-test" />
-
-  <remove-project name="cm12-amami/android_packages_apps_Bluetooth" />
-  <project name="cm12-amami/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" revision="cm-12.1-test" />
-
-  <remove-project name="cm12-amami/android_packages_apps_ManagedProvisioning" />
-  <project name="cm12-amami/android_packages_apps_ManagedProvisioning" path="packages/apps/ManagedProvisioning" revision="cm-12.1-test" />
 
 </manifest>
