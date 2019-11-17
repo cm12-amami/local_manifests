@@ -15,9 +15,6 @@
   <remove-project name="cm12-amami/android_external_bluetooth_bluedroid" />
   <project name="cm12-amami/android_external_bluetooth_bluedroid" path="external/bluetooth/bluedroid" groups="pdk" revision="cm-12.1-test" />
 
-  <remove-project name="platform/external/libcxx" />
-  <project name="cm12-amami/android_external_libcxx" path="external/libcxx" groups="pdk" revision="cm-12.1" />
-
   <remove-project name="cm12-amami/android_external_libnfc-nci" />
   <project name="cm12-amami/android_external_libnfc-nci" path="external/libnfc-nci" groups="pdk" revision="cm-12.1-test" />
 
