@@ -11,6 +11,7 @@
   -->
 
   <!-- Here comes the individual stuff for the respective ASB -->
-
+  <remove-project name="LineageOS/android_packages_providers_TelephonyProvider" />
+  <project path="packages/providers/TelephonyProvider" name="cm12-amami/android_packages_providers_TelephonyProvider" />
 
 </manifest>
