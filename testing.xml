@@ -11,6 +11,19 @@
   -->
 
   <!-- Here comes the individual stuff for the respective ASB -->
+  <remove-project name="cm12-amami/android_frameworks_base" />
+  <project name="cm12-amami/android_frameworks_base" path="frameworks/base" revision="cm-12.1-test" />
 
+  <remove-project name="cm12-amami/android_external_libhevc" />
+  <project name="cm12-amami/android_external_libhevc" path="external/libhevc" revision="cm-12.1-test" />
+
+  <remove-project name="cm12-amami/android_external_bluetooth_bluedroid" />
+  <project name="cm12-amami/android_external_bluetooth_bluedroid" path="external/bluetooth/bluedroid" revision="cm-12.1-test" />
+
+  <remove-project name="cm12-amami/android_packages_apps_Email" />
+  <project name="cm12-amami/android_packages_apps_Email" path="packages/apps/Email" revision="cm-12.1-test" />
+
+  <remove-project name="cm12-amami/android_packages_apps_UnifiedEmail" />
+  <project name="cm12-amami/android_packages_apps_UnifiedEmail" path="packages/apps/UnifiedEmail" revision="cm-12.1-test" />
 
 </manifest>
