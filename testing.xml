@@ -26,7 +26,4 @@
   <remove-project name="cm12-amami/android_packages_apps_UnifiedEmail" />
   <project name="cm12-amami/android_packages_apps_UnifiedEmail" path="packages/apps/UnifiedEmail" revision="cm-12.1-test" />
 
-  <remove-project name="cm12-amami/android_packages_providers_DownloadProvider" />
-  <project name="cm12-amami/android_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" revision="cm-12.1-test" />
-
 </manifest>
