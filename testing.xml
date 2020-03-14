@@ -11,5 +11,16 @@
   -->
 
   <!-- Here comes the individual stuff for the respective ASB -->
+  <remove-project name="cm12-amami/android_external_libnfc-nci" />
+  <project name="cm12-amami/android_external_libnfc-nci" path="external/libnfc-nci" revision="cm-12.1-test" groups="pdk" />
+
+  <remove-project name="cm12-amami/android_external_libvpx" />
+  <project name="cm12-amami/android_external_libvpx" path="external/libvpx" revision="cm-12.1-test" groups="pdk" />
+
+  <remove-project name="cm12-amami/android_frameworks_base" />
+  <project name="cm12-amami/android_frameworks_base" path="frameworks/base" revision="cm-12.1-test" />
+
+  <remove-project name="cm12-amami/android_packages_providers_TelephonyProvider" />
+  <project name="cm12-amami/android_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" revision="cm-12.1-test" />
 
 </manifest>
