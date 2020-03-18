@@ -5,9 +5,9 @@
   <remove-project name="cm12-amami/android_build" />
   <project name="cm12-amami/android_build" path="build" revision="cm-12.1-test"/>
 
-  <!-- Common Sony stuff (Note: Kernel points always to 'cm-12.1-test') -->
-  <remove-project name="cm12-amami/android_kernel_sony_msm8974" />
-  <project name="cm12-amami/android_kernel_sony_msm8974" path="kernel/sony/msm8974" revision="cm-12.1-test"/>
+  <!-- SONY and MSM8974 specific -->
+  <project name="cm12-amami/android_kernel_sony_msm8974" path="kernel/sony/msm8974" revision="cm-12.1-test" />
+  <project name="cm12-amami/android_device_sony_msm8974-common" path="device/sony/msm8974-common" />
 
   <!-- SONY XPERIA Z1 Compact -->
   <project name="cm12-amami/android_device_sony_amami" path="device/sony/amami" revision="cm-12.1"/>
