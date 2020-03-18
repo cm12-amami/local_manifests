@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- TWRP replacements-->
-  <remove-project name="cm12-amami/android_device_sony_msm8974-common" />  
+  <!-- TWRP specific -->
+  <project name="cm12-amami/android_kernel_sony_msm8974" path="kernel/sony/msm8974" />
   <project name="cm12-amami/android_device_sony_msm8974-common" path="device/sony/msm8974-common" revision="cm-12.1-twrp"/>
-
-  <!-- TWRP config. for Z1c -->
   <project name="cm12-amami/android_device_sony_amami" path="device/sony/amami" revision="cm-12.1-twrp"/>
   <project name="cm12-amami/android_device_sony_rhine-common" path="device/sony/rhine-common" revision="cm-12.1-twrp"/>
 
