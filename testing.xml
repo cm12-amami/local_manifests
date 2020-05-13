@@ -11,10 +11,5 @@
   -->
 
   <!-- Here comes the individual stuff for the respective ASB -->
-  <remove-project name="platform/external/libexif" />
-  <project path="external/libexif" name="cm12-amami/android_external_libexif" remote="github" revision="cm-12.1" />
-
-  <remove-project name="cm12-amami/android_frameworks_av" />
-  <project path="frameworks/av" name="cm12-amami/android_frameworks_av" remote="github" revision="cm-12.1-test" />
 
 </manifest>
