@@ -12,4 +12,10 @@
 
   <!-- Here comes the individual stuff for the respective ASB -->
 
+  <remove-project name="cm12-amami/android_frameworks_av" />
+  <project path="frameworks/av" name="cm12-amami/android_frameworks_av" remote="github" revision="cm-12.1-test" />
+
+  <remove-project name="cm12-amami/android_frameworks_base" />
+  <project path="frameworks/base" name="cm12-amami/android_frameworks_base" remote="github" revision="cm-12.1-test" />
+
 </manifest>
