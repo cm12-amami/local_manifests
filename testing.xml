@@ -11,8 +11,14 @@
   -->
 
   <!-- Here comes the individual stuff for the respective ASB -->
+  <remove-project name="cm12-amami/android_external_aac" />
+  <project name="cm12-amami/android_external_aac" path="external/aac" groups="pdk" revision="cm-12.1-test" />
+
   <remove-project name="LineageOS/android_external_freetype" />
   <project name="cm12-amami/android_external_freetype" path="external/freetype" groups="pdk" revision="cm-13.0" />
+
+  <remove-project name="cm12-amami/android_external_libexif" />
+  <project name="cm12-amami/android_external_libexif" path="external/libexif" revision="cm-12.1-test" />
 
   <remove-project name="cm12-amami/android_system_core" />
   <project name="cm12-amami/android_system_core" path="system/core" groups="pdk" revision="cm-12.1-test" />
