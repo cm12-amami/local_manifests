@@ -10,6 +10,15 @@
 
   -->
 
+  <!-- Additional Security Hardening [for cm-12.1-sepol branch]
+    <project name="MSe1969/privacy-friendly-netmonitor-prebuilt" 
+             path="external/secuso/privacy-friendly-netmonitor-prebuilt" 
+             revision="master" clone-depth="1" />
+    <project path="external/bromite-webview" 
+             name="MSe1969/android_external_bromite-webview" 
+             clone-depth="1" revision="master" />
+  -->
+
   <!-- Here comes the individual stuff for the respective ASB -->
 
 </manifest>
