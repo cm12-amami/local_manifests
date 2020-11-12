@@ -6,4 +6,13 @@
   <!-- SONY XPERIA Z1 Compact -->
   <project name="cm12-amami/android_device_sony_amami" path="device/sony/amami" remote="github" revision="cm-12.1"/>
   <project name="cm12-amami/android_device_sony_rhine-common" path="device/sony/rhine-common" remote="github" revision="cm-12.1"/>
+
+  <!-- Additional Security Hardening [for cm-12.1-sepol branch]
+  <project name="MSe1969/privacy-friendly-netmonitor-prebuilt" 
+           path="external/secuso/privacy-friendly-netmonitor-prebuilt" 
+           revision="master" clone-depth="1" />
+  <project path="external/bromite-webview" 
+           name="MSe1969/android_external_bromite-webview" 
+           clone-depth="1" revision="master" />
+  -->
 </manifest>
